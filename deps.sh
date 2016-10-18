@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 #scapy for python3
-pip install scapy-python3
+sudo pip install scapy-python3
 
 #dependency for libtins and aircrack
 sudo apt-get install libpcap-dev libssl-dev cmake aircrack-ng -y
@@ -27,4 +27,5 @@ sudo Make
 sudo apt-get install screen -y
 
 # database library for python3
-sudo apt-get install sqlite3 db sqlalchemy -y
+sudo apt-get install sqlite3
+sudo pip3 install sqlalchemy
