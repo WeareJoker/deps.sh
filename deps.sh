@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 #scapy for python3
-sudo pip install scapy-python3
+sudo pip3 install scapy-python3
 
 #dependency for libtins and aircrack
 sudo apt-get install libpcap-dev libssl-dev cmake aircrack-ng -y
