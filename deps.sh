@@ -12,15 +12,17 @@ sudo apt-get install libpcap-dev libssl-dev cmake aircrack-ng -y
 #libtins
 sudo git clone https://github.com/mfontanini/libtins.git
 mkdir build
+cd build
 sudo cmake ../
 sudo make
 sudo make install 
 
 #dot11decrypt
 sudo git clone https://github.com/mfontanini/dot11decrypt
-Mkdir build
+mkdir build
+cd build
 sudo cmake ../
-sudo Make
+sudo make
 
 
 # screen for executing different programs in one terminal.
